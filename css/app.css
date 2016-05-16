@@ -1,0 +1,31 @@
+body {
+  font-family: "Graphik";
+}
+
+.navbar {
+  font-weight: 300;
+  padding: 15px 120px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.logo {
+  display: inline;
+  padding-right: 40px;
+}
+
+.nav-link {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.right-bar {
+  float: right;
+  color: gray;
+}
+
+h1 {
+  display: flex;
+  font: 32px/37px;
+  font-weight: 300;
+  justify-content: center;
+}
