@@ -76,6 +76,10 @@ h1 {
   font-weight: 100;
 }
 
+.green img {
+  padding-left: 20px;
+}
+
 .second-box {
   display: flex;
   justify-content: center;
