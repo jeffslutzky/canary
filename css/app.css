@@ -96,7 +96,7 @@ h2 {
   padding: 50px 0px;
 }
 
-.check {
+.check-eligibility {
   background-color: #F8F8F8;
   width: 100%;
   text-align: center;
@@ -110,10 +110,11 @@ h2 {
 .logo-box {
   background-color: #fff;
   border: 1px #e8e8e8 solid;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px 0px #e8e8e8;
   width: 15%;
   padding: 75px;
   margin: 20px;
-  /* round the corners */
 }
 
 .footer {
@@ -123,5 +124,5 @@ h2 {
 }
 
 .contact-box {
-
+  color: #fff;
 }
