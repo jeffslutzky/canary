@@ -25,12 +25,34 @@ body {
   color: gray;
 }
 
-h1 {
+.headline-container {
   display: flex;
-  font: 32px/37px;
-  font-weight: 300;
-  justify-content: center;
 }
 
-.heading-1 {
+h1 {
+  font: 32px/37px;
+  font-weight: 300;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.first-box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.first-box-left {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.first-box-right {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.logos {
 }
