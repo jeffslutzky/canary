@@ -64,7 +64,7 @@ h1 {
   padding: 20px 0px;
 }
 
-.eligibility {
+.green {
   color: #4EAE87;
   padding: 20px 0px;
 }
@@ -100,6 +100,7 @@ h2 {
   background-color: #F8F8F8;
   width: 100%;
   text-align: center;
+  padding: 50px;
 }
 
 .logo-row {
@@ -133,6 +134,11 @@ h2 {
   color: #fff;
   flex: 1;
   text-align: center;
+}
+
+h3 {
+  font: 18px/28px;
+  font-weight: 200;
 }
 
 .get-in-touch {
