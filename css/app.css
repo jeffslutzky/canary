@@ -167,8 +167,20 @@ h3 {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   img {
     display: none;
+  }
+
+  .navbar img {
+    display: initial;
+  }
+
+  .logos img {
+    display: initial;
+  }
+
+  .third-box img {
+    display: initial;
   }
 }
