@@ -66,6 +66,7 @@ h1 {
 
 .eligibility {
   color: #4EAE87;
+  padding: 20px 0px;
 }
 
 .second-box {
@@ -113,4 +114,14 @@ h2 {
   padding: 75px;
   margin: 20px;
   /* round the corners */
+}
+
+.footer {
+  background-color: #48CCDF;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box {
+
 }
