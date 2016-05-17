@@ -17,9 +17,6 @@ body {
 .nav-link {
   display: inline;
   padding: 0px 20px;
-  margin-top: auto;
-  margin-bottom: auto;
-
 }
 
 .right-bar {
@@ -99,7 +96,6 @@ h2 {
   font-weight: 300;
   margin: auto;
   text-align: center;
-  /*padding: 50px 0px;*/
 }
 
 .third-box {
@@ -118,6 +114,7 @@ h4 {
 
 .logo-box h4 {
   width: 100%;
+  color: gray;
 }
 
 .logo-row {
@@ -148,10 +145,6 @@ h4 {
   align-items: center;
 }
 
-.team {
-
-}
-
 .contact-box {
   color: #fff;
   flex: 1;
@@ -175,5 +168,7 @@ h3 {
 
 
 @media screen and (max-width: 320px) {
-
+  img {
+    display: none;
+  }
 }
