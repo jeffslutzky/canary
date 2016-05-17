@@ -88,14 +88,11 @@ h1 {
 
 .second-box-left {
   margin-left: 5%;
-  margin-right: 5%;
   width: 66%;
 }
 
 .second-box-right {
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 34%;
+  width: 30%;
 }
 
 h2 {
@@ -107,16 +104,21 @@ h2 {
   padding: 50px 0px;
 }
 
-.check-eligibility {
+.third-box {
   background-color: #F8F8F8;
   width: 100%;
   text-align: center;
-  padding: 50px;
+  padding: 50px 0px;
+}
+
+h4 {
+  font: 16px/25px 'Graphik';
+  font-weight: 200;
 }
 
 .logo-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .logo-box {
@@ -126,7 +128,8 @@ h2 {
   box-shadow: 0px 2px 4px 0px #e8e8e8;
   width: 15%;
   padding: 75px;
-  margin: 20px;
+  /*margin: 20px;*/
+  align-content: center;
 }
 
 .footer {
