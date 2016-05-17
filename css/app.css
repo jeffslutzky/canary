@@ -19,6 +19,7 @@ body {
   padding: 0px 20px;
   margin-top: auto;
   margin-bottom: auto;
+
 }
 
 .right-bar {
@@ -48,14 +49,13 @@ h1 {
 
 .first-box-left {
   margin-left: 5%;
-  /*margin-right: 5%;*/
-  width: 34%;
+  width: 35%;
 }
 
 .first-box-right {
   margin-left: 5%;
   margin-right: 5%;
-  width: 66%;
+  width: 65%;
 }
 
 .logos {
@@ -95,29 +95,35 @@ h1 {
 }
 
 h2 {
-  font: 24px/30px 'Graphik';
-  font-weight: 600;
-  width: 300px;
+  font: 45px/56px 'Graphik';
+  font-weight: 300;
   margin: auto;
   text-align: center;
-  padding: 50px 0px;
+  /*padding: 50px 0px;*/
 }
 
 .third-box {
   background-color: #F8F8F8;
   width: 100%;
   text-align: center;
-  padding: 50px 0px;
+  padding: 50px 0px 80px 0px;
 }
 
 h4 {
   font: 16px/25px 'Graphik';
   font-weight: 200;
+  width: 30%;
+  margin: auto;
+}
+
+.logo-box h4 {
+  width: 100%;
 }
 
 .logo-row {
   display: flex;
   justify-content: space-around;
+  padding-top: 50px;
 }
 
 .logo-box {
@@ -127,8 +133,11 @@ h4 {
   box-shadow: 0px 2px 4px 0px #e8e8e8;
   width: 15%;
   padding: 75px;
-  /*margin: 20px;*/
   align-content: center;
+}
+
+.below-logo {
+  padding-top: 80px;
 }
 
 .footer {
