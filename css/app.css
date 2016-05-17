@@ -1,6 +1,5 @@
 body {
-  font-family: 'Graphik';
-  font: 18px/28px;
+  font: 18px/28px 'Graphik';
   color: #000;
 }
 
@@ -18,6 +17,8 @@ body {
 .nav-link {
   display: inline;
   padding: 0px 20px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .right-bar {
@@ -30,12 +31,12 @@ body {
 }
 
 h1 {
-  font: 32px/37px;
+  font: 55px/60px 'Graphik';
   font-weight: 300;
-  width: 300px;
+  width: 500px;
   margin: auto;
   text-align: center;
-  padding: 50px 0px;
+  padding: 40px 0px;
 }
 
 .first-box {
@@ -47,7 +48,7 @@ h1 {
 
 .first-box-left {
   margin-left: 5%;
-  margin-right: 5%;
+  /*margin-right: 5%;*/
   width: 34%;
 }
 
@@ -64,9 +65,15 @@ h1 {
   padding: 20px 0px;
 }
 
+.logos img {
+  padding: 10px;
+}
+
 .green {
+  font: 16px/28px 'Graphik';
   color: #4EAE87;
   padding: 20px 0px;
+  font-weight: 100;
 }
 
 .second-box {
@@ -88,7 +95,7 @@ h1 {
 }
 
 h2 {
-  font: 24px/30px;
+  font: 24px/30px 'Graphik';
   font-weight: 600;
   width: 300px;
   margin: auto;
@@ -137,8 +144,9 @@ h2 {
 }
 
 h3 {
-  font: 18px/28px;
-  font-weight: 200;
+  font: 18px/28px 'Graphik';
+  font-weight: 100;
+  margin: 0;
 }
 
 .get-in-touch {
@@ -148,4 +156,9 @@ h3 {
   border-radius: 35px;
   width: 200px;
   margin: auto;
+}
+
+
+@media screen and (max-width: 320px) {
+
 }
