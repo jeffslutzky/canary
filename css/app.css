@@ -42,16 +42,19 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 70px 0px;
 }
 
 .first-box-left {
   margin-left: 5%;
   margin-right: 5%;
+  width: 34%;
 }
 
 .first-box-right {
   margin-left: 5%;
   margin-right: 5%;
+  width: 66%;
 }
 
 .logos {
@@ -63,4 +66,32 @@ h1 {
 
 .eligibility {
   color: #4EAE87;
+}
+
+
+.second-box {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px;
+}
+
+.second-box-left {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 66%;
+}
+
+.second-box-right {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 34%;
+}
+
+h2 {
+  font: 24px/30px;
+  font-weight: 600;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0px;
 }
