@@ -1,5 +1,7 @@
 body {
   font-family: 'Graphik';
+  font: 18px/28px;
+  color: #000;
 }
 
 .navbar {
@@ -28,4 +30,7 @@ h1 {
   font: 32px/37px;
   font-weight: 300;
   justify-content: center;
+}
+
+.heading-1 {
 }
