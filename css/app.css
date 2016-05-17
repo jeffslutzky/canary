@@ -68,7 +68,6 @@ h1 {
   color: #4EAE87;
 }
 
-
 .second-box {
   display: flex;
   justify-content: center;
@@ -94,4 +93,24 @@ h2 {
   margin: auto;
   text-align: center;
   padding: 50px 0px;
+}
+
+.check {
+  background-color: #F8F8F8;
+  width: 100%;
+  text-align: center;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-box {
+  background-color: #fff;
+  border: 1px #e8e8e8 solid;
+  width: 15%;
+  padding: 75px;
+  margin: 20px;
+  /* round the corners */
 }
