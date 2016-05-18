@@ -56,8 +56,6 @@ h1 {
 }
 
 .first-box-right {
-  margin-left: 5%;
-  margin-right: 5%;
   width: 65%;
 }
 
@@ -74,7 +72,7 @@ h1 {
   max-width: 33%;
 }
 
-.green {
+.green-text {
   font: 16px/28px 'Graphik';
   color: #4EAE87;
   padding: 20px 0px;
@@ -92,12 +90,14 @@ h1 {
 }
 
 .second-box-left {
-  width: 60%;
+  width: 65%;
+  margin-left: 5%;
 }
 
 .second-box-right {
-  width: 30%;
-  padding-left: 20px;
+  width: 35%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 h2 {
@@ -119,6 +119,11 @@ h4 {
   font-weight: 200;
   width: 30%;
   margin: auto;
+}
+
+.contact-box h4 {
+  width: 50%;
+  padding: 25px;
 }
 
 .logo-box h4 {
@@ -162,6 +167,12 @@ h4 {
 
 h3 {
   font: 18px/28px 'Graphik';
+  font-weight: 100;
+  margin: 0;
+}
+
+.questions {
+  font: 24px/28px 'Graphik';
   font-weight: 100;
   margin: 0;
 }
