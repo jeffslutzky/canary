@@ -176,11 +176,34 @@ h3 {
     display: initial;
   }
 
+  .logos {
+    flex-wrap: wrap;
+  }
+
   .logos img {
     display: initial;
+    width: 40%;
   }
 
   .third-box img {
     display: initial;
+  }
+
+
+  .first-box-left {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .second-box-left {
+    width: 0%;
+  }
+
+  .first-box-right {
+    width: 0%;
+  }
+
+  .second-box-right {
+    width: 100%;
   }
 }
