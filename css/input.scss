@@ -1,9 +1,13 @@
+$main-font: 'Graphik';
+$contact-color: #48ccdf;
+$border-line-color: #e8e8e8;
+
 * {
   box-sizing: content-box;
 }
 
 body {
-  font: 18px/28px 'Graphik';
+  font: 18px/28px $main-font;
   color: #000;
   margin: 0;
 }
@@ -19,16 +23,16 @@ body {
 .navbar {
   font-weight: 300;
   padding: 15px 120px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid $border-line-color;
 }
 
-.logo {
+.canary-logo {
   display: inline;
   padding-right: 40px;
-}
 
-.logo img {
-  vertical-align: middle;
+  img {
+    vertical-align: middle;
+  }
 }
 
 img {
@@ -39,11 +43,16 @@ img {
 .nav-link {
   display: inline;
   padding: 0px 20px;
+  font: 15px/20px $main-font;
+  font-weight: 300;
 }
 
-.right-bar {
+.login {
   float: right;
   color: gray;
+  font: 15px/20px "Graphik";
+  font-weight: 300;
+  padding-top: 6px;
 }
 
 .headline-container {
@@ -51,12 +60,26 @@ img {
 }
 
 h1 {
-  font: 55px/60px 'Graphik';
+  font: 55px/60px $main-font;
   font-weight: 300;
   width: 500px;
   margin: auto;
   text-align: center;
   padding: 40px 0px;
+}
+
+h2 {
+  font: 45px/56px $main-font;
+  font-weight: 300;
+  margin: auto;
+  text-align: center;
+}
+
+h4 {
+  font: 16px/25px $main-font;
+  font-weight: 200;
+  width: 30%;
+  margin: auto;
 }
 
 .first-box {
@@ -80,23 +103,23 @@ h1 {
   justify-content: space-around;
   align-items: center;
   padding: 20px 0px;
-}
 
-.logos img {
-  padding: 10px;
-  min-width: 135px;
-  max-width: 33%;
+  img {
+    padding: 10px;
+    min-width: 135px;
+    max-width: 33%;
+  }
 }
 
 .green-text {
-  font: 16px/28px 'Graphik';
-  color: #4EAE87;
+  font: 16px/28px $main-font;
+  color: #4eae87;
   padding: 20px 0px;
   font-weight: 100;
-}
 
-.green img {
-  padding-left: 20px;
+  img {
+    padding-left: 20px;
+  }
 }
 
 .second-box {
@@ -116,52 +139,33 @@ h1 {
   padding-right: 8%;
 }
 
-h2 {
-  font: 45px/56px 'Graphik';
-  font-weight: 300;
-  margin: auto;
-  text-align: center;
-}
-
 .third-box {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   width: 100%;
   text-align: center;
   padding: 50px 0px 80px 0px;
 }
 
-h4 {
-  font: 16px/25px 'Graphik';
-  font-weight: 200;
-  width: 30%;
-  margin: auto;
-}
-
-.contact-box h4 {
-  width: 50%;
-  padding: 25px;
-}
-
-.logo-box h4 {
-  width: 100%;
-  color: black;
-  padding-top: 5%;
-}
-
-.logo-row {
+.insurance-logo-row {
   display: flex;
   justify-content: space-around;
   padding-top: 50px;
 }
 
-.logo-box {
+.insurance-logo-box {
   background-color: #fff;
-  border: 1px #e8e8e8 solid;
+  border: 1px $border-line-color solid;
   border-radius: 4px;
-  box-shadow: 0px 2px 4px 0px #e8e8e8;
+  box-shadow: 0px 2px 4px 0px $border-line-color;
   width: 15%;
   padding: 75px;
   align-content: center;
+
+  h4 {
+    width: 100%;
+    color: black;
+    padding-top: 5%;
+  }
 }
 
 .hover-details h4 {
@@ -172,12 +176,12 @@ h4 {
   display: none;
 }
 
-.below-logo {
+.below-logo-box {
   padding-top: 80px;
 }
 
 .footer {
-  background-color: #48CCDF;
+  background-color: $contact-color;
   display: flex;
   justify-content: space-between;
   font-weight: 300;
@@ -188,23 +192,28 @@ h4 {
   color: #fff;
   flex: 1;
   text-align: center;
+
+  h4 {
+    width: 50%;
+    padding: 25px;
+  }
 }
 
 h3 {
-  font: 18px/28px 'Graphik';
+  font: 18px/28px $main-font;
   font-weight: 100;
   margin: 0;
 }
 
 .questions {
-  font: 24px/28px 'Graphik';
+  font: 24px/28px $main-font;
   font-weight: 100;
   margin: 0;
 }
 
 .get-in-touch {
   background-color: #fff;
-  color: #48CCDF;
+  color: $contact-color;
   padding: 20px;
   border-radius: 35px;
   width: 200px;
@@ -224,36 +233,36 @@ h3 {
     display: none;
   }
 
-  .navbar img {
-    display: initial;
-  }
-
   .navbar {
     display: block;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 30px;
+
+    img {
+      display: initial;
+    }
   }
 
-  .logo {
+  .canary-logo {
     padding: 0;
-    /*margin: 0 auto;*/
     display: block;
-  }
 
-  .logo img {
-    margin: 0 auto;
-    display: block;
+    img {
+      margin: 0 auto;
+      display: block;
+    }
   }
 
   .links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 5%;
   }
 
   .nav-link {
-    padding: 0 10px 0 10px;
+    padding: 10px 18px 10px;
     display: inline;
   }
 
@@ -266,18 +275,6 @@ h3 {
     margin: 0;
   }
 
-  .second-box {
-    margin: 10% 0 0 0;
-  }
-
-  .third-box {
-    padding-bottom: 50px;
-  }
-
-  .below-logo {
-    padding-top: 50px;
-  }
-
   .first-box-left {
     margin-left: 0%;
     width: 100%;
@@ -285,6 +282,10 @@ h3 {
 
   .first-box-right {
     width: 0%;
+  }
+
+  .second-box {
+    margin: 10% 0 0 0;
   }
 
   .second-box-left {
@@ -297,28 +298,36 @@ h3 {
     padding: 0 5% 0 5%;
   }
 
-  .third-box img {
-    display: initial;
+  .third-box {
+    padding-bottom: 50px;
+
+    img {
+      display: initial;
+    }
   }
 
-  .right-bar {
+  .below-logo-box {
+    padding-top: 50px;
+  }
+
+  .login {
     display: none;
   }
 
-  .logo-row {
+  .insurance-logo-row {
     flex-direction: column;
     padding-top: 20px;
   }
 
-  .logo-box {
+  .insurance-logo-box {
     margin: 5%;
     padding: 20% 10% 20% 10%;
     width: 70%;
-  }
 
-  .logo-box h4 {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    h4 {
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
   }
 
   .hover-details {
@@ -334,7 +343,7 @@ h3 {
   }
 
   h1, h2 {
-    font: 30px/40px 'Graphik';
+    font: 30px/40px $main-font;
     font-weight: 300;
     width: 78%;
   }
