@@ -49,7 +49,6 @@ h1 {
 .first-box {
   display: flex;
   justify-content: center;
-  /*align-items: center;*/
   margin: 70px 0px;
 }
 
@@ -132,7 +131,8 @@ h4 {
 
 .logo-box h4 {
   width: 100%;
-  color: gray;
+  color: black;
+  padding-top: 5%;
 }
 
 .logo-row {
@@ -149,6 +149,14 @@ h4 {
   width: 15%;
   padding: 75px;
   align-content: center;
+}
+
+.hover-details h4 {
+  color: darkgray;
+}
+
+.hover-or-contact {
+  display: none;
 }
 
 .below-logo {
@@ -217,6 +225,22 @@ h3 {
     width: 40%;
   }
 
+  .first-box {
+    margin: 0;
+  }
+
+  .second-box {
+    margin: 10% 0 0 0;
+  }
+
+  .third-box {
+    padding-bottom: 50px;
+  }
+
+  .below-logo {
+    padding-top: 50px;
+  }
+
   .first-box-left {
     margin-left: 0%;
     width: 100%;
@@ -232,10 +256,52 @@ h3 {
 
   .second-box-right {
     width: 100%;
+    padding: 0;
   }
 
   .third-box img {
     display: initial;
   }
 
+  .right-bar {
+    display: none;
+  }
+
+  .logo-row {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  .logo-box {
+    margin: 5%;
+    padding: 20% 10% 20% 10%;
+    width: 70%;
+  }
+
+  .logo-box h4 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .hover-details {
+    display: none;
+  }
+
+  .hover-or-contact {
+    display: inline;
+  }
+
+  .contact-box {
+    padding: 20%;
+  }
+
+  h1, h2 {
+    font: 30px/40px 'Graphik';
+    font-weight: 300;
+    width: 78%;
+  }
+
+  h4 {
+    width: 75%;
+  }
 }
