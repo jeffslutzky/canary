@@ -14,6 +14,11 @@ body {
   padding-right: 40px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .nav-link {
   display: inline;
   padding: 0px 20px;
@@ -45,8 +50,9 @@ h1 {
 }
 
 .first-box-left {
-  margin-left: 5%;
   width: 35%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .first-box-right {
@@ -64,6 +70,8 @@ h1 {
 
 .logos img {
   padding: 10px;
+  min-width: 135px;
+  max-width: 33%;
 }
 
 .green {
@@ -89,6 +97,7 @@ h1 {
 
 .second-box-right {
   width: 30%;
+  padding-left: 20px;
 }
 
 h2 {
@@ -167,7 +176,15 @@ h3 {
 }
 
 
+@media screen and (max-width: 1250px) {
+  .logos {
+    flex-wrap: wrap;
+  }
+
+}
+
 @media screen and (max-width: 400px) {
+
   img {
     display: none;
   }
@@ -185,25 +202,25 @@ h3 {
     width: 40%;
   }
 
-  .third-box img {
-    display: initial;
-  }
-
-
   .first-box-left {
     margin-left: 0%;
     width: 100%;
-  }
-
-  .second-box-left {
-    width: 0%;
   }
 
   .first-box-right {
     width: 0%;
   }
 
+  .second-box-left {
+    width: 0%;
+  }
+
   .second-box-right {
     width: 100%;
   }
+
+  .third-box img {
+    display: initial;
+  }
+
 }
